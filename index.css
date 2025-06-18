@@ -302,3 +302,11 @@ a#base:hover {
 .social-btn .fa-github:hover {
     color: #333;
 }
+
+.card-img-top.object-fit-cover {
+  background-color: white;
+}
+
+iframe {
+  border: 0;
+}
