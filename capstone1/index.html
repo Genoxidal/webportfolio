@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./index.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="logo">&LT;KIKODES&GT;</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link me-3" href="#landing">Home</a>
+                    <a class="nav-link me-3" href="#profile">Ryan Oxales</a>
+                    <a class="nav-link me-3" href="#projects">Projects</a>
+                    <a class="nav-link me-3" href="#tools">Tools</a>
+                    <a id="say-hi" class="nav-link" href="#contact">Say Hi</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="landing" class="text-white">
+            <div class="py-5 container-fluid bg-dark min-vh-100">
+                <div class="row my-5 py-5 justify-content-center align-items-center">
+
+                    <div class="col-12 col-lg-4 text-center text-md-start mb-4 mb-md-0 order-md-1">
+                        <h1 id="title" class="wrapped-heading">
+                            Let's code your <span id="landing-website">website</span> to life!
+                        </h1>
+                        <a href="#contact" id="base" class="mt-4 d-inline-block text-decoration-none">LET'S TALK</a>
+                    </div>
+
+                    <div class="col-12 col-lg-4 text-center order-md-2">
+                        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+                            type="module"></script>
+                        <dotlottie-player
+                            src="https://lottie.host/b5c65993-66e6-4cd3-9c9b-4bf3b62cf235/UuuwJ1Iewa.lottie"
+                            background="transparent" speed="2" class="lottie-animation" loop autoplay>
+                        </dotlottie-player>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="profile" class="py-5 bg-dark text-light">
+            <div class="container my-5">
+                <div class="row align-items-center justify-content-center g-4">
+
+                    <div class="col-12 col-md-3 d-flex justify-content-center">
+                        <img src="./images/studio ghibli pfp.png" alt="Ryan Oxales Profile Picture"
+                            class="img-fluid rounded-circle profile-picture">
+                    </div>
+
+                    <div class="col-12 col-md-5 text-center text-md-start">
+                        <h1 class="display-5 fw-bold text-light">Hi! I'm Ryan Oxales, your full stack <span
+                                class="bg-light text-dark">web developer</span>.</h1>
+                    </div>
+
+                    <div class="col-12 col-md-4 text-center text-md-start">
+                        <p class="lead mb-4 text-light">I use a wide range of tools to build innovative and effective
+                            web
+                            solutions,
+                            handling everything from front-end design to back-end development.</p>
+                        <a href="#contact" class="btn btn-primary btn-lg">LET'S TALK</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="container py-5">
+            <h2 class="display-4 fw-bold mb-5 mt-4 text-center">Here are some of my <span
+                    class="bg-dark text-light">best works</span>.</h2>
+
+            <div class="row g-4 justify-content-center text-center">
+
+                <div class="col-md-4 d-flex">
+                    <div
+                        class="card bg-dark text-white border border-secondary shadow-sm w-100 position-relative overflow-hidden">
+                        <img src="./images/e-commerce api documentation.png" class="card-img-top object-fit-cover"
+                            alt="E-commerce API">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <h5 class="text-white">View Details</h5>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">E-commerce API Documentation</h5>
+                            <p class="card-text">Dynamic E-Commerce Workflow Management. The system Features dynamic
+                                routes
+                                for order processing, real-time inventory updates, and secure user authentication. It
+                                also
+                                supports seamless automated order reporting and comprehensive product management.
+                                Documented
+                                Backend API published pubicly using Postman.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex">
+                    <div
+                        class="card bg-dark text-white border border-secondary shadow-sm w-100 position-relative overflow-hidden">
+                        <img src="./images/course booking api documentation.png" class="card-img-top object-fit-cover"
+                            alt="Course API" style="background-color: white;">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <h5 class="text-white">View Details</h5>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Course Booking API Documentation</h5>
+                            <p class="card-text">RESTful API for managing course enrollments, featuring course
+                                registration,
+                                authentication, and retrieval of user details. Supports course creation, updates,
+                                archiving,
+                                activation, and student enrollment. Publicly documented using Postman.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex">
+                    <div
+                        class="card bg-dark text-white border border-secondary shadow-sm w-100 position-relative overflow-hidden">
+                        <img src="./images/course booking app.svg" class="card-img-top object-fit-cover"
+                            alt="Course App" style="background-color: white;">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <h5 class="text-white">View Details</h5>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Course Booking App</h5>
+                            <p class="card-text">A MERN-stack course enrollment system featuring user registration,
+                                authentication, and profile management, Authenticated users can create, update, archive,
+                                and
+                                activate courses. The platform also allows users to browse available courses and enroll
+                                seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex">
+                    <div
+                        class="card bg-dark text-white border border-secondary shadow-sm w-100 position-relative overflow-hidden">
+                        <img src="./images/e-commerce app.avif" class="card-img-top object-fit-cover"
+                            alt="E-commerce App">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <h5 class="text-white">View Details</h5>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">E-commerce App</h5>
+                            <p class="card-text">A MERN E-Commerce platform. The platform features dynamic product
+                                catalog
+                                with filtering and sorting, real-time search, seamless cart updates, secure checkout,
+                                and a
+                                comprehensive admin dashboard with real-time analytics and user management capabilities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex">
+                    <div
+                        class="card bg-dark text-white border border-secondary shadow-sm w-100 position-relative overflow-hidden">
+                        <img src="./images/airline booking system mockup.jpg" class="card-img-top object-fit-cover"
+                            alt="Mockup">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <h5 class="text-white">View Details</h5>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Airline Booking System Mockup</h5>
+                            <p class="card-text">Side Project: Conceptual design showcasing an intuitive UI for flight
+                                search, seat selection, and booking confirmation, focusing on user experience and
+                                workflow
+                                efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex">
+                    <div
+                        class="card bg-dark text-white border border-secondary shadow-sm w-100 position-relative overflow-hidden">
+                        <img src="./images/airline booking system prototype.png" class="card-img-top object-fit-cover"
+                            alt="Prototype">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <h5 class="text-white">View Details</h5>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Airline Booking System Prototype</h5>
+                            <p class="card-text">Side Project: Interactive prototype simulating end-to-end airline
+                                booking
+                                functionalities, including flight search, reservation, payment processing, and real-time
+                                ticket management.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white border-0 shadow-sm position-relative overflow-hidden">
+                        <img src="https://via.placeholder.com/600x300" class="card-img" alt="Capstone">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <h5 class="text-white">View Details</h5>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Short Courses Capstone</h5>
+                            <p class="card-text">Final capstone project integrating course listing, enrollment, and
+                                feedback.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white border-0 shadow-sm position-relative overflow-hidden">
+                        <img src="https://via.placeholder.com/600x300" class="card-img" alt="Capstone">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <h5 class="text-white">View Details</h5>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Short Courses Capstone</h5>
+                            <p class="card-text">Final capstone project integrating course listing, enrollment, and
+                                feedback.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white border-0 shadow-sm position-relative overflow-hidden">
+                        <img src="https://via.placeholder.com/600x300" class="card-img" alt="Capstone">
+                        <div class="overlay d-flex justify-content-center align-items-center">
+                            <h5 class="text-white">View Details</h5>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Short Courses Capstone</h5>
+                            <p class="card-text">Final capstone project integrating course listing, enrollment, and
+                                feedback.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="tools" class="py-5 bg-dark text-white text-center">
+            <div class="container my-5">
+                <h2 class="display-4 fw-bold mb-5">Tools</h2>
+                <div class="row justify-content-center g-4">
+                    <div class="col-12 col-md-4">
+                        <h3 class="mb-4 text-primary">Front End</h3>
+                        <div class="tool-icons row justify-content-center align-items-center g-4">
+                            <div class="col-6"><img src="./images/html5.png" alt="HTML5" class="tool-icon img-fluid">
+                            </div>
+                            <div class="col-6"><img src="./images/css.svg" alt="CSS3" class="tool-icon img-fluid"></div>
+                            <div class="col-6"><img src="./images/bootstrap.png" alt="Bootstrap"
+                                    class="tool-icon img-fluid"></div>
+                            <div class="col-6"><img src="./images/javascript.svg" alt="JavaScript"
+                                    class="tool-icon img-fluid"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <h3 class="mb-4 text-success">MERN</h3>
+                        <div class="tool-icons row justify-content-center align-items-center g-4">
+                            <div class="col-6"><img src="./images/mongodb.svg" alt="MongoDB"
+                                    class="tool-icon img-fluid"></div>
+                            <div class="col-6"><img src="./images/Express.png" alt="Express.js"
+                                    class="tool-icon img-fluid"></div>
+                            <div class="col-6"><img src="./images/react.svg" alt="React" class="tool-icon img-fluid">
+                            </div>
+                            <div class="col-6"><img src="./images/node.svg" alt="Node.js" class="tool-icon img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <h3 class="mb-4 text-info">Other Tools</h3>
+                        <div class="tool-icons row justify-content-center align-items-center g-4">
+                            <div class="col-6"><img src="./images/heroku.svg" alt="Heroku" class="tool-icon img-fluid">
+                            </div>
+                            <div class="col-6"><img src="./images/git.svg" alt="Git" class="tool-icon img-fluid"></div>
+                            <div class="col-6"><img src="./images/postman.svg" alt="Postman"
+                                    class="tool-icon img-fluid"></div>
+                            <div class="col-6"><img src="./images/vscode.png" alt="Visual Studio Code"
+                                    class="tool-icon img-fluid"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="py-5 bg-light text-dark">
+            <div class="container my-5">
+                <h2 class="display-4 fw-bold mb-5 text-center">Let's <span class="bg-dark text-light">build</span>
+                    something together.</h2>
+
+                <div class="row justify-content-center align-items-center g-4">
+
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="map-container rounded shadow border border-2 border-dark">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.329424771057!2d121.0608408!3d14.5802953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c81492f33951%3A0x40b177c0069702f1!2sUniversity%20of%20Asia%20and%20the%20Pacific%20(UA%26P)!5e0!3m2!1sen!2sph!4v1750168001988!5m2!1sen!2sph"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <form class="p-4 rounded shadow-sm bg-dark text-white" action="#" target="_blank">
+                            <div class="mb-3">
+                                <label for="fullName" class="form-label visually-hidden">First Name M.I. Last
+                                    Name</label>
+                                <input type="text" class="form-control" id="fullName" placeholder="Juan Dela Cruz"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label visually-hidden">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label visually-hidden">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Message"
+                                    required></textarea>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <div class="d-flex">
+                                    <a href="https://www.facebook.com/ryanoxales/" target="_blank"
+                                        class="social-btn me-2">
+                                        <img src="./images/facebook.svg" alt="Facebook" width="24" height="24">
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/ryan-oxales-3060932a6/" target="_blank"
+                                        class="social-btn me-2">
+                                        <img src="./images/linkedin.svg" alt="LinkedIn" width="24" height="24">
+                                    </a>
+                                    <a href="https://github.com/Genoxidal" target="_blank" class="social-btn">
+                                        <img src="./images/github.svg" alt="GitHub" width="24" height="24">
+                                    </a>
+                                </div>
+
+                                <button type="submit" class="contact-submit-btn">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="footer">
+        <footer class="bg-light text-dark text-center py-4">
+            <div class="container">
+                <p class="mb-1">Ryan Oxales</p>
+                <p class="mb-1">Full Stack Web Developer</p>
+                <p class="mb-0">&copy; All Rights Reserved 2025</p>
+            </div>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
